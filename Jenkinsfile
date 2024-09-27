@@ -25,7 +25,7 @@ pipeline {
             }
          } 
              
-         stages {
+        
         stage('Start pybl_1.bat') {
             steps {
                bat '''
@@ -48,5 +48,5 @@ pipeline {
             }
          } 
         
-        }
+        
     }
