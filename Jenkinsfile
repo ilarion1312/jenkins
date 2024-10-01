@@ -1,7 +1,7 @@
 pipeline {
     agent { label 'server2022'}
     environment { 
-        PATH = "${env.PATH};C:\Perl64\bin\;C:\Program Files\Git\cmd\" 
+        PATH = "${env.PATH};C:\\Perl64\\bin\\;C:\\Program Files\\Git\\cmd\\" 
     }
 
       stages {
